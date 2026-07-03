@@ -1,7 +1,8 @@
 # Data Dictionary & Schema
 
-**Source file:** `customer_shopping_data.csv` (place your raw CSV in `02_data/raw/`)
-**Grain:** One row per customer purchase record (confirm uniqueness of `Customer ID` during EDA — see `03_data_preparation/data_cleaning_eda.py`)
+**Source file:** `customer_shopping_behavior.csv`
+
+**Grain:** One row per customer purchase record
 
 | Column | Type (raw) | Type (cleaned) | Description | Notes / Expected Values |
 |---|---|---|---|---|
