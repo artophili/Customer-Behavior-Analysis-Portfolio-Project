@@ -1,0 +1,32 @@
+CREATE TABLE customer_behavior (
+    customer_id VARCHAR(50) PRIMARY KEY,
+    age SMALLINT,
+    gender VARCHAR(20),
+    item_purchased VARCHAR(100),
+    category VARCHAR(50),
+    purchase_amount_usd DECIMAL(10,2),
+    location VARCHAR(100),
+    size VARCHAR(20),
+    color VARCHAR(30),
+    season VARCHAR(20),
+    review_rating DECIMAL(3,1),
+    subscription_status VARCHAR(20),
+    shipping_type VARCHAR(50),
+    discount_applied VARCHAR(5),
+    promo_code_used VARCHAR(5),
+    previous_purchases INT,
+    payment_method VARCHAR(50),
+    frequency_of_purchases VARCHAR(50),
+    rating_missing_flag SMALLINT,
+    subscription_status_flag SMALLINT,
+    discount_applied_flag SMALLINT,
+    promo_code_used_flag SMALLINT,
+    age_band VARCHAR(20),
+    promo_group VARCHAR(50),
+    loyalty_tier VARCHAR(20),
+    is_subscriber SMALLINT,
+    low_rating_flag SMALLINT,
+    at_risk_flag SMALLINT
+);
+
+SELECT * FROM customer_behavior;

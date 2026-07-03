@@ -1,0 +1,6 @@
+Customers who used a discount/promo don't spend more, aren't meaningfully more "loyal" (0.6 more previous purchases out of a ~25 average is noise, not signal), and don't rate their experience any differently.
+
+Discounting and promo codes show no meaningful association with purchase amount, historical loyalty, or satisfaction in this dataset. Customers who buy at full price behave essentially identically to those who use discounts — suggesting promotional spend may not be driving incremental loyalty or revenue, and could be subsidizing purchases that would have happened anyway.
+
+Differences within every tier are small (~$1–3), and there's no consistent direction — in "High" and "Very High" tiers, Full Price customers spend slightly more; in "Medium," Discount+Promo customers spend slightly more. That's noise, not a pattern.
+Critically: loyalty tier itself doesn't interact with promo usage — a "Very High" loyalty customer spends about the same whether or not they used a discount, and so does a "Low" loyalty customer. Discounting isn't disproportionately winning over any particular loyalty segment either.

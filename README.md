@@ -62,17 +62,9 @@ python data_cleaning_eda.py --input ../02_data/raw/customer_shopping_data.csv \
 ```
 
 ## Key Findings
+Headline findings till now suggests that Discounting and promo codes show no meaningful association with purchase amount, historical loyalty, or satisfaction in this dataset. Customers who buy at full price behave essentially identically to those who use discounts — suggesting promotional spend may not be driving incremental loyalty or revenue, and could be subsidizing purchases that would have happened anyway.
 
-> _Populate after running the analysis on your data — see `06_reporting/` for the summary template._
-
-1. [Finding 1]
-2. [Finding 2]
-3. [Finding 3]
-
-## Dashboard
-
-[Link to published Tableau Public dashboard] · ![dashboard preview](05_tableau/dashboard_preview.png)
 
 ## Author
 
-[Your Name] — [LinkedIn] · [Portfolio site]
+Akshay Rane — www.linkedin.com/in/akshay-rane-263849213
