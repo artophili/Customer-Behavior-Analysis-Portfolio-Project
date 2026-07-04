@@ -67,7 +67,7 @@ Headline findings till now suggests that Discounting and promo codes show no mea
 ## Dashboard
 Link to Dashboard - https://public.tableau.com/views/CustomerBehaviorDataAnalysisPortfolioProject/CustomerRetentionRevenueRiskExecutiveOverview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## Author
 
