@@ -62,7 +62,10 @@ python data_cleaning_eda.py --input ../02_data/raw/customer_shopping_data.csv \
 ```
 
 ## Key Findings
-Headline findings till now suggests that Discounting and promo codes show no meaningful association with purchase amount, historical loyalty, or satisfaction in this dataset. Customers who buy at full price behave essentially identically to those who use discounts — suggesting promotional spend may not be driving incremental loyalty or revenue, and could be subsidizing purchases that would have happened anyway.
+1. Promotional discounts show no measurable business impact. Customers using a discount/promo code spent $59.27 on average vs. $60.13 for full-price customers, with nearly identical purchase history (25.7 vs 25.1 previous orders) and satisfaction (3.74 vs 3.76 / 5) — a pattern that held even among the most loyal customers.
+2. Identified a concrete at-risk segment: 180 customers (4.6% of the base) representing $10,435 (4.5%) of revenue — high historical value, but infrequent recent purchasing and below-average satisfaction (2.6–3.0 rating). Segment skews male and concentrated in the Clothing category, giving retention marketing a specific, targetable profile.
+3. Shipping type shows a modest link to satisfaction; payment method shows none. Store Pickup and Next Day Air customers report low ratings ~24–26% of the time vs. ~19% for Standard shipping — a real but small effect worth flagging to Ops/CX.
+4. Discovered Discount Applied and Promo Code Used are 100% correlated in this dataset — they function as a single lever, not two independent ones — a data-quality insight that shaped how the promo analysis was framed and reported.
 
 ## Dashboard
 Link to Dashboard - https://public.tableau.com/views/CustomerBehaviorDataAnalysisPortfolioProject/CustomerRetentionRevenueRiskExecutiveOverview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
